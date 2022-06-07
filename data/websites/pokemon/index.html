@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="game">
+        <img class="character"></img>
+        <div class="fight">
+            <img src="data/characters/mainCharacterRight0.png" class="fight-character"></img>
+            <img class="opponent"></img>
+
+            <div class="panel">
+                <span>A vous de jouer !</span>
+                <img class="panel-arrow" src="data/svg/arrow-pixel-black.svg" alt="arrow-pixel-black">
+                <div class="button-container">
+                    <button id="attack">
+                        <img src="data/svg/fire.svg" alt="fire">
+                        Attaquer
+                    </button>
+                    <button id="flee">
+                        <img src="data/svg/flee.svg" alt="flee">
+                        Fuir
+                    </button>
+                </div>
+                <div class="skills"></div>
+            </div>
+
+            <div class="fight-info" id="mainCharacterInfo">
+                <h4>Vous</h4>
+                <div class="life-number">
+                    <span id="mainCharacterLifeNumber"></span>
+                    <span id="mainCharacterFullLifeNumber"></span>
+                </div>
+                <div class="life-container">
+                    <p>PV:</p>
+                    <div id="mainCharacterLifeBar" class="life"></div>
+                </div>
+            </div>
+
+            <div class="fight-info" id="opponentInfo">
+                <h4 id="opponentName"></h4>
+                <div class="life-number">
+                    <span id="opponentLifeNumber"></span>
+                    <span id="opponentFullLifeNumber"></span>
+                </div>
+                <div class="life-container">
+                    <p>PV:</p>
+                    <div id="opponentLifeBar" class="life"></div>
+                </div>
+            </div>
+        </div>
+        <div class="hide"></div>
+    </div>
+    <div class="message-container">
+        <p class="message-text"></p>
+        <img class="message-button" src="data/svg/arrow-pixel-white.svg" alt="arrow-pixel-white">
+    </div>
+
+    <div class="direction-container">
+        <button id="37" class="direction direction-left"><img src="data/svg/arrow.svg" alt="arrow"></button>
+        <button id="38" class="direction direction-top"><img src="data/svg/arrow.svg" alt="arrow"></button>
+        <button id="39" class="direction direction-right"><img src="data/svg/arrow.svg" alt="arrow"></button>
+        <button id="40" class="direction direction-bottom"><img src="data/svg/arrow.svg" alt="arrow"></button>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+
+</body>
+</html>

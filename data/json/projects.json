@@ -1,0 +1,101 @@
+[
+    {
+        "title": "Connivence",
+        "image": "connivence.png",
+        "subtext": "Site web de la franchise de salons de coiffure Connivence.\nMaquette réalisée sous Figma. Site développé en HTML, CSS et Javascript vanilla lors de mon stage de fin de DUT MMI.",
+        "description": "Durant mon stage de fin de DUT MMI, j'ai participé à la création du nouveau site pour la franchise de salons de coiffure Connivence. J'étais chargé du design et du développement front-end de la plupart des pages. Ce site est principalement un site vitrine, même s'il est possible de réserver en ligne. Le thème était celui du luxe et du prestige, principalement pour la page du salon de Bordeaux. La charte graphique était composée de noir, de blanc et de rouge. Le site devait être responsive, moderne et intuitif à utiliser. Lors du développement, je n'ai fait quasiment que de l'intégration et un petit peu de Javascript (carrousel, effet parallax).",
+        "area": "Webdesign, Développement",
+        "link": "https://connivence.net/",
+        "color": "#DB3b3C"
+    },
+    {
+        "title": "Check-it!",
+        "image": "todolist.png",
+        "subtext": "Application web de todo list.\nMaquette réalisée sous Figma. Site développé en React.",
+        "description": "Après m'être formé à React, je voulais m'entraîner en créant ma première application web utilisant React. J'ai donc décidé de créer une todo list en partant du template Create React App. Il est possible d'ajouter des tâches et de spécifier pour chacune sa nature, sa date limite et son importance. Ensuite, les tâches sont classées en fonction de leur importance, et il est possible de les éditer, les supprimer et les cocher.\n\nCliquez sur le lien ci-dessous pour accéder au repository GitHub :",
+        "area": "Webdesign, Développement",
+        "link": "https://github.com/ColinLienard/TodoList",
+        "color": "#6100FF"
+    },
+    {
+        "title": "Jeu RPG",
+        "image": "aventuregame.png",
+        "subtext": "Projet personnel en cours de réaliser un jeu RPG en vue de haut.\nSite développé en HTML, CSS et Javascript vanilla.",
+        "description": "Le but est avant tout d'apprendre et d'améliorer mes compétences en Javascript. J'ai déjà pu apprendre certaines choses que je n'avais pas vu en cours (les modules, les classes Javascript, les callback, etc...)\n\nCliquez sur le lien ci-dessous pour accéder au repository GitHub :",
+        "area": "Développement en cours",
+        "link": "https://github.com/ColinLienard/AventureGame",
+        "color": "#49A641"
+    },
+    {
+        "title": "Run Rex! Run",
+        "image": "runrexrun.png",
+        "subtext": "Remake du fameux jeu du dinosaure de Google, qui apparaît lorsque l'utilisateur n'a pas accès à internet.\nMaquette réalisée sous Figma. Site développé en HTML, CSS et Javascript vanilla.",
+        "description": "À travers ce projet personnel, je souhaitais me challenger et expérimenter quelque chose de nouveau pour moi en Javascript. J'ai donc développé ce petit jeu sur mon temps libre en essayant de faire en sorte qu'il ressemble beaucoup à l'original, tout en lui apportant ma touche personnelle. Le jeu contient quelques fonctionnalités, comme le fait que les obstacles changent de type et que le la partie s'accélère si le score est élevé.\n\nCliquez sur le lien ci-dessous pour accéder au jeu :",
+        "area": "Webdesign, Développement",
+        "link": "data/websites/runrexrun",
+        "color": "#3632FF"
+    },
+    {
+        "title": "MMI Space",
+        "image": "mmispace.png",
+        "subtext": "Site fonctionnel recensant les étudiants (actuels et anciens) en MMI de Limoges. Maquette réalisée sous Figma. Site développé en HTML, SCSS et Javascript.",
+        "description": "Pour ce projet tutoré de quatrième semestre, nous devions créer un site permettant de recenser tous les étudiants étant ou ayant été en MMMI à Limoges. Avec mon groupe composé de Laura Chauvet, Mathieu Parinet et Léa Peschieras, nous étions en concurrence avec deux autres groupes qui ont du réaliser le même site, mais j'ai bon espoir que le nôtre sera choisi pour être l'annuaire officiel des MMI de Limoges. Sur ce site, il est donc possible de renseigner ses informations, de rechercher d'autres étudiants, de voir les actualités, et même des publier des actualités et des offres d'emploi depuis un panel administrateur. Je me suis chargé du design ainsi que du développement front-end.\n\nCliquez sur le lien ci-dessous pour accéder au site. Utilisez l'identifiant \"demo@gmail.com\" et le mot de passe \"demo\" :",
+        "area": "Webdesign, Développement",
+        "link": "https://mmispace.mathieu-parinet.fr/",
+        "color": "#EC6D8B"
+    },
+    {
+        "title": "FeedSeeker",
+        "image": "feedseeker.png",
+        "subtext": "Site fonctionnel affichant et permettant de sélectionner des flux RSS. Maquette réalisée sous Figma. Site développé en HTML, CSS et Javascript.",
+        "description": "Ce projet tutoré de troisième semestre était sur le thème des flux RSS. Avec mon groupe composé de Andréa Bousseau, Inès Chmourrane et Mathieu Parinet, nous devions créer un site permettant à un utilisateur d'explorer différents flux RSS et de pouvoir les trier (catégories, mots clés, ordre croissant...) pour affiner une recherche. Je me suis chargé du design ainsi que du développement front-end.\n\nCliquez sur le lien ci-dessous pour accéder au site :",
+        "area": "Webdesign, Développement",
+        "link": "https://feedseeker.mathieu-parinet.fr/",
+        "color": "#FB836D"
+    },
+    {
+        "title": "Smartphone pour tous",
+        "image": "smartphonePourTous.png",
+        "subtext": "Maquette d'un site d'aide aux personnes âgées pour leur apprendre à se servir d'un smartphone. Maquette réalisée sous Figma. Site développé en HTML, CSS et Javascript.",
+        "description": "Ce projet tutoré de fin de première année de MMI était sur le thème de l'apprentissage. Avec mon groupe composé de Thomas Bourgeois et Laura Guitou, nous avons choisi de créer un site permettant aux personnes âgées d'apprendre à se servir de leurs smartphones.\n\nCliquez sur le lien ci-dessous pour accéder au projet Figma :",
+        "area": "Webdesign, Développement",
+        "link": "https://www.figma.com/file/1mKyZjcCjb3ylLNJkCa6Fr/Projet-tutor%C3%A9-Site-aide-smartphone-pour-les-s%C3%A9niors?node-id=69%3A74",
+        "color": "#EA825E"
+    },
+    {
+        "title": "Interface type Spotify",
+        "image": "interfaceTypeSpotify.png",
+        "subtext": "Maquette d'une interface d'application de musique type Spotify.\nRéalisé sous Figma.",
+        "description": "Je voulais essayer de reproduire une interface d'une application comme Spotify tout en y intégrant les tendances UI/UX actuelle, à savoir un design épuré avec un fond uni, des angles arrondis et de nombreux effets d'ombres et de transparences.\n\nCliquez sur le lien ci-dessous pour accéder au projet Figma :",
+        "area": "Webdesign",
+        "link": "https://www.figma.com/file/LHsubBcI42DCK5rZrw6WbO/Music?node-id=0%3A1",
+        "color": "#FF7E2E"
+    },
+    {
+        "title": "Orangina",
+        "image": "orangina.png",
+        "subtext": "Design system et maquette d'une application Orangina.\nRéalisé sous Figma.",
+        "description": "Ce projet a été mené en cours d'Esthétique et d'Expression Artistique : nous devions réaliser une analyse graphique de la nouvelle identité d'Orangina, faire un benchmark des identités graphiques des concurrents, puis enfin créer un design system pour une application fictive en respectant la charte graphique.\n\nCliquez sur le lien ci-dessous pour accéder au projet Figma :",
+        "area": "Webdesign",
+        "link": "",
+        "color": "#FFDD00"
+    },
+    {
+        "title": "Portfolio (V2)",
+        "image": "portfolioV2.png",
+        "subtext": "Seconde version de mon portfolio réalisé au début de ma seconde année de DUT MMI.\nMaquette réalisée sous Figma. Site développé en HTML, CSS, Javascript et PHP.",
+        "description": "Avant le site sur lequel vous vous trouvez, j'avais déjà créé deux versions, et celle-ci est la seconde. Avec cette version, j'ai voulu expérimenter les dégradés de couleurs et donner un ton différent à chaque section de la page avec des dégradés différents. Les ombres marquées et les titres avec la police grasse et compacte donnent un air cartoon. Globalement, le but était de rendre le tout très coloré avec des ambiances différentes en fonction de l'avancée de l'utilisateur dans la page.\n\nCliquez sur le lien ci-dessous pour accéder au site :",
+        "area": "Webdesign, Développement",
+        "link": "data/websites/portfolioV2",
+        "color": "#5352ED"
+    },
+    {
+        "title": "Portfolio (V1)",
+        "image": "portfolioV1.png",
+        "subtext": "Première version de mon portfolio réalisé à la fin de ma première année de DUT MMI.\nMaquette réalisée sous Figma. Site développé en HTML, CSS et Javascript.",
+        "description": "Avant le site sur lequel vous vous trouvez, j'avais déjà créé deux versions, et celle-ci est la première. J'avais voulu axer mon site sur un thème moderne et futuriste avec des couleurs très contrastées et de grands textes qui remplissent le fond. Beaucoup d'effets de transparence et de lueurs sont présents pour compléter l'effet futuriste.\n\nCliquez sur le lien ci-dessous pour accéder au site :",
+        "area": "Webdesign, Développement",
+        "link": "data/websites/portfolioV1",
+        "color": "#23475C"
+    }
+]

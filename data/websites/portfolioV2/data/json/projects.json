@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Run Rex! Run",
+        "image": "runrexrun.png",
+        "description": "Remake du fameux jeu du dinosaure de Google, qui apparaît lorsque l'utilisateur n'a pas accès à internet.\nMaquette réalisée sous Figma. Site développé en HTML, CSS et Javascript vanilla.\n\nÀ travers ce projet personnel, je souhaitais me challenger et expérimenter quelque chose de nouveau pour moi en Javascript. J'ai donc développé ce petit jeu sur mon temps libre en essayant de faire en sorte qu'il ressemble beaucoup à l'original, tout en lui apportant ma touche personnelle. Le jeu contient quelques fonctionnalités, comme le fait que les obstacles changent de type et que le la partie s'accélère si le score est élevé.\n\nCliquez sur le lien ci-dessous pour accéder au jeu :",
+        "link": "data/runrexrun/index.html"
+    },
+    {
+        "title": "Interface type Spotify",
+        "image": "music.png",
+        "description": "Maquette d'une interface d'application de musique type Spotify.\nRéalisé sous Figma.\n\nJe voulais essayer de reproduire une interface d'une application comme Spotify tout en y intégrant les tendances UI/UX actuelle, à savoir un design épuré avec un fond uni, des angles arrondis et de nombreux effets d'ombres et de transparences.\n\nCliquez sur le lien ci-dessous pour accéder au projet Figma :",
+        "link": "https://www.figma.com/file/LHsubBcI42DCK5rZrw6WbO/Music?node-id=0%3A1"
+    },
+    {
+        "title": "Orangina",
+        "image": "orangina.png",
+        "description": "Design system et maquette d'une application Orangina.\nRéalisé sous Figma.\n\nCe projet a été mené en cours d'Esthétique et d'Expression Artistique : nous devions réaliser une analyse graphique de la nouvelle identité d'Orangina, faire un benchmark des identités graphiques des concurrents, puis enfin créer un design system pour une application fictive en respectant la charte graphique.",
+        "link": ""
+    },
+    {
+        "title": "AHVEC",
+        "image": "ahvec.png",
+        "description": "Design system et maquette de la landing page et de la page n+1 pour l'AHVEC.\nRéalisé sous Figma.\n\nCe projet a été réalisé durant ma première année de DUT MMI avec Dylan Andrieux, Inès Chmouranne et Camille Berthias. Nous devions designer puis développer la landing page et la page n+1 du site pour l'association humanitaire AHVEC en concurrrence avec les étudiants en MMI d'Angoulême, en passant tout d'abord par une étape de gestion de projet (analyse de l'existant, brief, benchmarking...). Malheureusement, le projet n'a pas pu aboutie en raison du contexte sanitaire.\n\nCliquez sur le lien ci-dessous pour accéder au projet Figma :",
+        "link": "https://www.figma.com/file/NLL4YsgQIZ8gYZ1oxTCxNm/Style-Guide-AHVEC?node-id=10%3A52"
+    },
+    {
+        "title": "Péniche Décibelle",
+        "image": "peniche.png",
+        "description": "Design system et maquette d'un site pour la péniche Décibelle.\nRéalisé sous Figma.\n\nCe projet avait pour but de réaliser un site web pour la péniche de mon cousin Simon Primard, qui propose des week-ends à passer dans la timonerie de sa péniche (Pont-sur-Yonne). Avec mon petit frère Tom Lienard, nous avons décidé de créer ce site pour aider la péniche à avoir une présence sur internet. Mais ce projet est pour l'instant au point mort.\n\nCliquez sur le lien ci-dessous pour accéder au projet Figma :",
+        "link": "https://www.figma.com/file/ZfxUCrZ3Bc1N6Rha3lpp70/Simon-P%C3%A9niche?node-id=0%3A1"
+    },
+    {
+        "title": "Projet tutoré 1",
+        "image": "ptut1.png",
+        "description": "Maquette d'un site d'aide aux personnes âgées pour leur apprendre à se servir d'un smartphone.\nRéalisé sous Figma puis développé.\n\nCe projet tutoré de fin de première année de MMI était sur le thème de l'apprentissage. Avec mon groupe composé de Thomas Bourgeois et Laura Guitou, nous avons choisi de créer un site permettant aux personnes âgées d'apprendre à se servir de leurs smartphones.\n\nCliquez sur le lien ci-dessous pour accéder au projet Figma :",
+        "link": "https://www.figma.com/file/1mKyZjcCjb3ylLNJkCa6Fr/Projet-tutor%C3%A9-Site-aide-smartphone-pour-les-s%C3%A9niors?node-id=69%3A74"
+    },
+    {
+        "title": "Logo Noël",
+        "image": "noel.png",
+        "description": "Logo réalisé sous Adobe Illustrator.\nImage vectorielle en flat design.\n\nJ'ai créé cette image pendant la période de Noël, dans le but de tester la fonctionalité de dégradé d'Illustrator et de partager cette image à mes proches.",
+        "link": ""
+    },
+    {
+        "title": "Logo Eagle",
+        "image": "eagle.png",
+        "description": "Logo réalisé sous Adobe Illustrator.\nImage vectorielle en flat design.\n\nJe me suis inspiré d'images réelles pour les formes d'aigles.",
+        "link": ""
+    },
+    {
+        "title": "Logo Lion",
+        "image": "lion.png",
+        "description": "Logo réalisé sous Adobe Illustrator.\nImage vectorielle en flat design.\n\nJ'ai tenté de créer un logo vintage avec pour thème le roi des animaux. Je me suis inspiré d'images réelles pour le lion.",
+        "link": ""
+    }
+]

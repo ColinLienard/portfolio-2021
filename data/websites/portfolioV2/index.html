@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- 485796 -->
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Je m'appelle Colin Lienard, je suis actuellement étudiant en seconde année de DUT MMI, et ceci est mon portfolio. Cliquez !">
+    <meta name="keywords" content="web design, développement web, front end, UI UX, étudiant, DUT MMI">
+    <link rel="shortcut icon" type="image/png" href="data/svg/character.svg">
+    <title>Colin Lienard - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="menu">
+        <a class="menuChild" href="#section-1">accueil</a>
+        <a class="menuChild" href="#section-2">réalisations</a>
+        <a class="menuChild" href="#section-3">à propos de moi</a>
+        <a class="menuChild" href="#section-4">compétences</a>
+        <a class="menuChild" href="#section-5">me contacter</a>
+    </div>
+    <svg class="hamburger" viewBox="0 0 30 16">
+        <rect y="0" width="30" height="3"/>
+        <rect y="10" width="30" height="3"/>
+    </svg>
+    
+    <section id="section-1" class="centered-container">
+        <h1>colin lienard</h1>
+        <p class="h1-subtitle">portfolio</p>
+        <img class="character" src="data/svg/character.svg" alt="character">
+        <a class="button" href="#section-2">Voir mes réalisations</a>
+        <div class="circle circle-1"></div>
+    </section>
+
+    <section id="section-2">
+        <h2>réalisations</h2>
+        <div class="arrow-container">
+            <img src="data/svg/arrow.svg" alt="arrow" class="arrow" id="arrow_left">
+            <img src="data/svg/arrow.svg" alt="arrow" class="arrow" id="arrow_right">
+        </div>
+        <template>
+            <article class="project">
+                <p class="project-number"></p>
+                <h3></h3>
+                <div class="centered-container">
+                    <a href="" class="image-link">
+                        <img src="" class="image shadow">
+                    </a>
+                </div>
+                <p class="description"></p>
+                <a href="" class="link"></a>
+            </article>
+        </template>
+        <div class="centered-container">
+            <a class="button button-arrow" href="#section-3"><img src="data/svg/arrow.svg" alt="arrow"></a>
+        </div>
+        <div class="circle circle-2"></div>
+    </section>
+
+    <section id="section-3">
+        <h2>à propos de moi</h2>
+        <p class="text">J'ai actuellement 19 ans et je suis étudiant en seconde année de <strong>DUT MMI</strong> (Métiers du Multimédia et de l'Internet) à <strong>Limoges</strong>. Je m'y suis découvert une passion pour tout ce qui touche au web design <strong>UI</strong>/<strong>UX</strong> ainsi qu'au développement <strong>front-end</strong>, et je compte poursuivre mes études dans cette voie-là. Vous pouvez découvrir ci-dessous les diplômes que je possède et télécharger mon CV.</p>
+        <ul class="card-container">
+            <li class="card shadow">
+                <h4>Baccalauréat littéraire</h4>
+                <p class="text">Mention bien, <strong>option Arts plastiques</strong>, obtenu au lycée Suzanne Valadon à Limoges en 2019.</p>
+            </li>
+            <li class="card shadow">
+                <h4><strong>DUT MMI</strong></h4>
+                <p class="text">En cours de seconde année à l'IUT de Limoges.</p>
+            </li>
+        </ul>
+        <div class="centered-container">
+            <a href="data/pdf/CV_ColinLIENARD.pdf" class="button button-download" download><img src="data/svg/download.svg" alt="download" class="download">Télécharger mon CV</a>
+        </div>
+        <div class="centered-container">
+            <a class="button button-arrow" href="#section-4"><img src="data/svg/arrow.svg" alt="arrow"></a>
+        </div>
+        <div class="circle circle-3"></div>
+    </section>
+
+    <section id="section-4">
+        <h2>compétences</h2>
+        <p class="text">Grâce à mon DUT MMI, j'ai pu acquérir de nombreuses compétences dans le domaine du web design et du <strong>développement web</strong> avec la maîtrise de nombreux logiciels et de différents langages webs. Mes compétences englobent aussi la communication, la gestion de projet, la gestion de bases de données et de services sur réseaux.</p>
+        <div class="centered-container">
+            <h3>Logiciels</h3>
+            <ul class="skills-container">
+                <li class="skills shadow"><img src="data/svg/skills/illustrator.svg" alt="illustrator" style="background-color: #FF7C00">
+                    <p class="text-hover">Illustrator</p></li>
+                <li class="skills shadow"><img src="data/svg/skills/photoshop.svg" alt="photoshop" style="background-color: #7FBAFB">
+                    <p class="text-hover">Photoshop</p></li>
+                <li class="skills shadow"><img src="data/svg/skills/after-effects.svg" alt="after-effects" style="background-color: #D291FF">
+                    <p class="text-hover">After Effects</p></li>
+                <li class="skills shadow"><img src="data/svg/skills/premiere.svg" alt="premiere" style="background-color: #D756FF">
+                    <p class="text-hover">Premiere Pro</p></li>
+                <li class="skills shadow"><img src="data/svg/skills/indesign.svg" alt="indesign" style="background-color: #FF3F94">
+                    <p class="text-hover">Indesign</p></li>
+                <li class="skills shadow"><img src="data/svg/skills/figma.svg" alt="figma">
+                    <p class="text-hover">Figma</p></li>
+            </ul>
+            <h3>Langages</h3>
+            <ul class="skills-container">
+                <li class="skills shadow"><img src="data/svg/skills/html.svg" alt="html" style="background-color: #F16428">
+                    <p class="text-hover">HTML</p></li>
+                <li class="skills shadow"><img src="data/svg/skills/css.svg" alt="css" style="background-color: #2864F1">
+                    <p class="text-hover">CSS</p></li>
+                <li class="skills shadow"><img src="data/svg/skills/javascript.svg" alt="javascript" style="background-color: #F7DF1E">
+                    <p class="text-hover">Javascript</p></li>
+                <li class="skills shadow"><img src="data/svg/skills/php.svg" alt="php" style="background-color: #7B8EC9">
+                    <p class="text-hover">PHP</p></li>
+                <li class="skills shadow"><img src="data/svg/skills/mysql.svg" alt="mysql" style="background-color: #00758F">
+                    <p class="text-hover">MySQL</p></li>
+            </ul>
+        </div>
+        <div class="centered-container">
+            <a class="button button-arrow" href="#section-5"><img src="data/svg/arrow.svg" alt="arrow"></a>
+        </div>
+        <div class="circle circle-4"></div>
+    </section>
+
+    <section id="section-5">
+        <h2>me contacter</h2>
+        <p class="text">Je vous invite à me contacter par mail (colin.lienard87@orange.fr) et à visiter mes réseaux sociaux. Bonne continuation !</p>
+        <h3>Me contacter par mail</h3>
+        <p class="mailsend"></p>
+        <form action="php/contact.php" method="POST">
+            <input type="text" placeholder="Votre nom" class="shadow" name="name" required>
+            <input type="email" placeholder="Votre adresse mail" class="shadow" name="email" required>
+            <textarea rows="5" placeholder="Message" class="shadow" name="message" required></textarea>
+            <div class="centered-container">
+                <input type="submit" value="Envoyer" class="submit-button shadow" name="submit">
+            </div>
+        </form>
+        <div class="centered-container">
+            <h3>Mes réseaux sociaux</h3>
+            <ul class="skills-container nomargin">
+                <li class="skills shadow"><a href="https://www.linkedin.com/in/colin-lienard-83490a1a4/"><img src="data/svg/networks/linkedin.svg" alt="linkedin" style="background-color: #0073b1"></a>
+                    <p class="text-hover">Linkedin</p></li>
+                <li class="skills shadow"><a href="https://dribbble.com/COLINLIENARD"><img src="data/svg/networks/dribbble.svg" alt="dribbble" style="background-color: #EA4C89"></a>
+                    <p class="text-hover">Dribbble</p></li>
+                <li class="skills shadow"><a href="https://www.behance.net/colinlienard"><img src="data/svg/networks/behance.svg" alt="behance" style="background-color: #0057ff"></a>
+                    <p class="text-hover">Behance</p></li>
+            </ul>
+        </div>
+        <div class="centered-container">
+            <a class="button button-arrow" href="#section-1"><img class="arrow-up" src="data/svg/arrow.svg" alt="arrow"></a>
+        </div>
+        <div class="circle circle-5"></div>
+    </section>
+
+    <script src="js/menu.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

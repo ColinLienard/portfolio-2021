@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colin Lienard | Portfolio</title>
+    <meta name="description" content="Je m'appelle Colin Lienard, je suis actuellement étudiant en seconde année de DUT MMI, et ceci est mon portfolio. Cliquez !">
+    <meta name="keywords" content="web design, développement web, front end, UI UX, étudiant, DUT MMI">
+    <link rel="shortcut icon" type="image/png" href="data/images/icon.png">
+    <link href="https://colin-lienard.fr/" rel="canonical">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="preload">
+        <div>
+            <span>Bienvenue</span>
+        </div>
+    </div>
+    <script src="js/loader.js"></script>
+    
+    <svg role="img" aria-label="Menu" class="hamburger" viewBox="0 0 30 16">
+        <rect y="0" width="30" height="3"/>
+        <rect y="10" width="30" height="3"/>
+    </svg>
+    <nav role="navigation" aria-label="Menu" class="menu">
+        <div class="menu-container">
+            <p>Accueil</p>
+            <p>Portfolio</p>
+            <p>À propos de moi</p>
+            <p>Contact</p>
+        </div>
+    </nav>
+    <div class="menu-background"></div>
+
+    <header role="banner">
+        <img src="data/svg/others/back-cube.svg" alt="" class="back-cube">
+        <img src="data/svg/others/cube.svg" alt="" class="cube cube-1">
+        <img src="data/svg/others/cube.svg" alt="" class="cube cube-2">
+        <img src="data/svg/others/cube.svg" alt="" class="cube cube-3">
+        <h1>Je suis 
+            <span class="glitch" data-text="Colin Lienard">Colin Lienard</span><br>
+            et je veux devenir<br>
+            <span class="stroke-text changing-text">UI/UX designer.</span>
+        </h1>
+        <button aria-label="Descendre vers la section portfolio" class="button-icon" id="button-portfolio">
+            <img src="data/svg/others/eye.svg" alt="">
+            Portfolio
+        </button>
+    </header>
+
+    <main role="main">
+
+        <section id="portfolio">
+            <h2><strong>Portfolio</strong></h2>
+            <hr>
+            <ul class="containerAll"></ul>
+            <template>
+                <article class="popup">
+                    <img alt="" class="popup-image">
+                    <span class="popup-background"></span>
+                    <div class="scrollable">
+                        <img src="data/svg/others/cross.svg" alt="Fermer le popup" class="cross">
+                        <h3 class="popup-title"></h3>
+                        <span class="popup-area"></span>
+                        <p class="popup-subtext"></p>
+                        <p class="popup-description"></p>
+                        <a href="#" target="_blank" aria-label="Lien vers le projet" class="popup-link"></a>
+                    </div>
+                </article>
+            </template>
+        </section>
+    
+        <section id="about-me">
+            <h2>À propos de moi</h2>
+            <hr>
+            <p>J'ai actuellement 19 ans et je suis étudiant en seconde année de <strong>DUT MMI</strong> (Métiers du Multimédia et de l'Internet) à <strong>Limoges</strong>. Je m'y suis découvert une passion pour tout ce qui touche au <strong>web design UI/UX</strong> ainsi qu'au <strong>développement front end</strong>, et je compte poursuivre mes études dans cette voie-là. Vous pouvez découvrir ci-dessous les diplômes que je possède et télécharger mon CV.</p>
+            <div class="banner banner-1 reveal">
+                <div>
+                    <h3><strong>Baccalauréat littéraire</strong></h3>
+                    <p>2016 - 2019<br>Mention bien, option <strong>Arts plastiques</strong>, obtenu au lycée Suzanne Valadon à Limoges en 2019.</p>
+                </div>
+                <img src="data/svg/others/square.svg" alt="" class="moving">
+                <img src="data/svg/others/triangle.svg" alt="" class="moving">
+                <img src="data/svg/others/circle.svg" alt="" class="moving">
+                <img src="data/svg/others/bigCross.svg" alt="" class="moving">
+            </div>
+            <div class="banner banner-2 reveal">
+                <div>
+                    <h3>DUT MMI</h3>
+                    <p>2019 - 2021<br>En cours de seconde année à l'IUT de Limoges.</p>
+                </div>
+                <img src="data/svg/others/square.svg" alt="" class="moving">
+                <img src="data/svg/others/triangle.svg" alt="" class="moving">
+                <img src="data/svg/others/circle.svg" alt="" class="moving">
+                <img src="data/svg/others/bigCross.svg" alt="" class="moving">
+            </div>
+            <p>Grâce à mon DUT MMI, j'ai pu acquérir de nombreuses compétences dans le domaine du web design et du développement web avec la maîtrise de nombreux <strong>logiciels</strong> et de différents <strong>langages webs</strong>. Mes compétences englobent aussi la <strong>communication, la gestion de projet, la gestion de bases de données et de services sur réseaux.</strong></p>
+            <h3 class="little-title">Logiciels maîtrisés</h3>
+            <ul class="list list-softwares reveal"></ul>
+            <h3 class="little-title">Logiciels maîtrisés</h3>
+            <ul class="list list-languages reveal"></ul>
+            <button class="button-icon" id="button-cv">
+                <img src="data/svg/others/download.svg" alt="">
+                Télécharger mon CV
+            </button>
+        </section>
+    
+        <section id="contact">
+            <h2>Contact</h2>
+            <hr>
+            <p>Je vous invite à me contacter par mail (<strong>colin.lienard87@orange.fr</strong>) et à visiter mes réseaux sociaux. Bonne continuation !</p>
+            <h3 class="little-title" id="mailsend">M'envoyer un message</h3>
+            <form action="php/contact.php" method="POST" class="reveal">
+                <input type="text" placeholder="Votre prénom" name="name" autocomplete="given-name" required>
+                <input type="text" placeholder="Votre nom" name="name" autocomplete="family-name" required>
+                <input type="email" placeholder="Votre adresse mail" name="email" autocomplete="email" required>
+                <textarea rows="5" placeholder="Message..." name="message" required></textarea>
+                <input type="submit" aria-label="Envoyer le mail" value="Envoyer" class="button-icon" name="submit">
+            </form>
+            <h3 class="little-title">Mes réseaux sociaux</h3>
+            <ul class="list reveal">
+                <li>
+                    <a href="https://www.linkedin.com/in/colin-lienard-83490a1a4/" aria-label="Lien vers mon Linkedin"><img src="data/svg/networks/linkedin.svg" alt="Linkedin"></a>
+                </li>
+                <li>
+                    <a href="https://www.behance.net/colinlienard" aria-label="Lien vers mon Behance"><img src="data/svg/networks/behance.svg" alt="Behance"></a>
+                </li>
+                <li>
+                    <a href="https://dribbble.com/COLINLIENARD" aria-label="Lien vers mon Dribbble"><img src="data/svg/networks/dribbble.svg" alt="Dribbble"></a>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+    
+    <footer role="contentinfo">
+        <p>Portfolio - Colin Lienard</p>
+        <p>2021</p>
+    </footer>
+
+    <script src="js/changing-text.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/projects.js"></script>
+    <script src="js/reveal.js"></script>
+    <script src="js/moving.js"></script>
+    <script src="js/skills.js"></script>
+    <script src="js/contact.js"></script>
+
+</body>
+</html>

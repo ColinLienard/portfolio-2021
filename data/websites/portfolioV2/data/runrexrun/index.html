@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUN REX! RUN</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="data/dino.svg">
+</head>
+<body>
+    
+    <a href="https://colin-lienard.fr/#section-2" class="back">
+        <img src="data/arrow.svg" alt="arrow" class="arrow">
+        <p>retour au portfolio</p>
+    </a>
+    <h1>RUN<br>REX!<br>RUN</h1>
+    <p class="subtitle">Survivez le plus longtemps possible !</p>
+    <div class="container">
+        <p class="minititle">Meilleur score</p>
+        <div class="scoreContainer">
+            <img src="data/star.svg" alt="star" class="star">
+            <h2 id="bestScore">0</h2>
+            <img src="data/star.svg" alt="star" class="star">
+        </div>
+        <div class="game">
+            <img src="data/dino.svg" alt="dino" class="dino">
+            <img src="data/cactus1.svg" alt="cactus" class="cactus">
+            <span class="ground"></span>
+            <span class="wind none wind1"></span>
+            <span class="wind none wind2"></span>
+            <span class="wind none wind3"></span>
+            <span class="wind none wind4"></span>
+            <div class="text-container">
+                <p class="text" id="gameOver">Game Over</p>
+                <p class="text" id="win">Score maximal atteint !<br>GG !</p>
+            </div>
+        </div>
+        <h2 id="score">0</h2>
+        <button>Appuyer pour commencer</button>
+    </div>
+
+    <div class="smallScreen">
+        <p>Écran trop petit !</p>
+    </div>
+
+    <script src="js/viewport.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
